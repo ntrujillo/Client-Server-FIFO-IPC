@@ -30,11 +30,10 @@
 using namespace std;
 
 #define NUM_PERSONS 15  // number of person to collect data for
-#define MAX_MESSAGE 256  // maximum buffer size for each message
+#define MAX_MESSAGE 384  // maximum buffer size for each message
 
 // different types of messages
 enum MESSAGE_TYPE {DATA_MSG, FILE_MSG, NEWCHANNEL_MSG, QUIT_MSG, UNKNOWN_MSG};    
-
 
 // message requesting a data point
 class datamsg{
