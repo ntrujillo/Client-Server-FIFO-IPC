@@ -55,7 +55,7 @@ int main(int argc, char *argv[]){
 	bool c = false;
 	
 	string filename = "";
-	while ((opt = getopt(argc, argv, "p:t:e:f:c")) != -1) {
+	while ((opt = getopt(argc, argv, "p:t:e:f:c:")) != -1) {
 		switch (opt) {
 			case 'p':
 				p = atoi (optarg);
